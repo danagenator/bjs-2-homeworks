@@ -1,8 +1,8 @@
-function Student(name, gender, age) {
-	this.name = name;
-	this.gender = gender;
-	this.age = age;
-	this.marks = [];
+class Student {
+	constructor(name, marks) {
+		this.name = name;
+		this.marks = {};
+	}
 }
 
 let student1 = new Student("Олег", "мужской", 19);
